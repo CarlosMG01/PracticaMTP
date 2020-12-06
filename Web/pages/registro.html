@@ -11,14 +11,14 @@
 		
 		<!-- FAVICON -->
 		<!-- PARA CUALQUIER NAVEGADOR -->
-		<link rel="icon" href="../images/demo/avatar.png" type="image/png" sizes="32x32">
+		<link rel="icon" href="../images/avatars/avatar.png" type="image/png" sizes="32x32">
 		 
 		<!-- PARA IPAD Y IPHONE -->
-		<link rel="apple-touch-icon-precomposed" href="../images/demo/avatar.png" type="image/png" sizes="152x152">
-		<link rel="apple-touch-icon-precomposed" href="../images/demo/avatar.png" type="image/png" sizes="120x120">
+		<link rel="apple-touch-icon-precomposed" href="../images/avatars/avatar.png" type="image/png" sizes="152x152">
+		<link rel="apple-touch-icon-precomposed" href="../images/avatars/avatar.png" type="image/png" sizes="120x120">
 		 
 		<!-- PARA GOOGLE TV -->
-		<link rel="icon" href="../images/demo/avatar.png"  type="image/png" sizes="96x96">
+		<link rel="icon" href="../images/avatars/avatar.png"  type="image/png" sizes="96x96">
 	</head>
 	
 	
@@ -40,18 +40,18 @@
 				<fieldset>
 					<legend>Registro:</legend>
 					<div class="one_half first">
-					  <label for="fname">Nombre:</label>
-					  <input class="btmspace-15" type="text" id="fname" name="fname">
-					  <label for="lname">Apellidos:</label>
-					  <input class="btmspace-15" type="text" id="lname" name="lname">
-					  <label for="email">Correo electrónico:</label>
-					  <input class="btmspace-15" type="text" id="email" name="email">
+					  <label for="fname">Nombre <span>*</span></label>
+					  <input class="btmspace-15" type="text" id="fname" name="fname" required>
+					  <label for="lname">Apellidos <span>*</span></label>
+					  <input class="btmspace-15" type="text" id="lname" name="lname" required>
+					  <label for="email">Correo electrónico <span>*</span></label>
+					  <input class="btmspace-15" type="text" id="email" name="email" required>
 					</div>
 					<div class="one_half">
-					  <label for="password">Contraseña:</label>
-					  <input class="btmspace-15" type="text" id="password" name="password">
-					  <label for="password2">Confirmar contraseña:</label>
-					  <input class="btmspace-15" type="text" id="password2" name="password2">
+					  <label for="password">Contraseña <span>*</span></label>
+					  <input class="btmspace-15" type="text" id="password" name="password" required>
+					  <label for="password2">Confirmar contraseña <span>*</span></label>
+					  <input class="btmspace-15" type="text" id="password2" name="password2" required>
 					  <br/>
 					  <input type="checkbox" name="subscription" value="subscription">
 					  <label for="subscription"> ¿Deseas recibir notificaciones sobre las últimas noticias en tu correo electrónico?</label>
