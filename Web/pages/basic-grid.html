@@ -41,12 +41,15 @@ Licence URI: https://www.os-templates.com/template-terms
 	
 	<body id="top">
 		<div class="wrapper row1">
-		  <header id="header" class="hoc clear"> 
-			<div id="logo" class="fl_left">
-			  <h1><a href="index.html">Nombre Periódico</a></h1>
+		  <header id="header" class="hoc clear">
+		    <div id="date" class="one_third">
+			  <span id="actual_date"></span>
 			</div>
-			<div id="quickinfo" class="fl_right">
-			 <p><a href="#"><i class="fa fa-sign-in"></i><strong>Inicio de sesión</strong></a></p>
+			<div id="title" class="one_third">
+			  <h1><FONT SIZE=6><a href="../index.html">Nombre Periódico</a></font></h1>
+			</div>
+			<div id="login" class="one_third">
+			  <p><a href="#" style="color:red"><i class="fa fa-sign-in"></i><strong>Inicio de sesión</strong></a></p>
 			</div>
 		  </header>
 		  
@@ -218,17 +221,17 @@ Licence URI: https://www.os-templates.com/template-terms
 				  <li><a class="drop" href="#">Más secciones</a>
 					<ul>
 					  <li><a href="#"><i class="fas fa-university fa-fw"></i> Historia</a></li>
-					  <li><a href="#"><i class="fas fa-gopuram fa-fw"></i> Sociedad</a></li>
+					  <li><a href="#"><i class="fas fa-users fa-fw"></i> Sociedad</a></li>
 					  <li><a href="#"><i class="fas fa-child fa-fw"></i> Niños</a></li>
 					  <li><a href="#"><i class="fas fa-plus fa-fw"></i> Extras</a></li>
 					  <li><a href="#"><i class="fas fa-clock fa-fw"></i> Últimas noticias</a></li>
 					</ul>
 				  </li>
-				  <li><a href="pages/gallery.html">Galería</a></li>
-				  <li><a href="pages/full-width.html">Width</a></li>
-				  <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-				  <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-				  <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+				  <li><a href="gallery.html">Galería</a></li>
+				  <li><a href="full-width.html">Width</a></li>
+				  <li><a href="sidebar-left.html">Sidebar Left</a></li>
+				  <li><a href="sidebar-right.html">Sidebar Right</a></li>
+				  <li><a href="basic-grid.html">Basic Grid</a></li>
 				</ul>
 			  </li>
 			</ul>
@@ -318,7 +321,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			  <form method="post" action="#">
 				<fieldset>
 				  <legend>Newsletter:</legend>
-				  <input class="btmspace-15" type="text" value="" placeholder="Name">
+				  <input class="btmspace-15" type="text" value="" placeholder="Nombre">
 				  <input class="btmspace-15" type="text" value="" placeholder="Email">
 				  <button type="submit" value="submit">Submit</button>
 				</fieldset>
@@ -338,6 +341,7 @@ Licence URI: https://www.os-templates.com/template-terms
 		<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 		
 		<!-- JAVASCRIPTS -->
+		<script src="../layout/scripts/jquery.date.js"></script>
 		<script src="../layout/scripts/jquery.min.js"></script>
 		<script src="../layout/scripts/jquery.backtotop.js"></script>
 		<script src="../layout/scripts/jquery.mobilemenu.js"></script>
